@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="modulate">
+      <UniqueIdentifier>{7db3f0d5-2586-4fc8-ad3c-600b2b2a622a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vivox">
+      <UniqueIdentifier>{bed6192b-c36a-4402-9b0b-62c054490642}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModulateVivoxLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulateVivoxIntegration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKMessageObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modulate\modulate.h">
+      <Filter>modulate</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\TestUDPFrameCallbacks.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\vivox-config.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\Vxc.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\VxcErrors.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\VxcEvents.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\VxcExports.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\VxcRequests.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\VxcResponses.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\VxcTypes.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\vxplatform\vxcplatform.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="vivox\include\vxplatform\vxcplatformmain.h">
+      <Filter>vivox</Filter>
+    </ClInclude>
+    <ClInclude Include="wav_logger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VivoxBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModulateVivoxLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModulateVivoxIntegration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wav_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VivoxBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vivox\vxplatform_win32.cpp">
+      <Filter>vivox</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
